@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2023"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "useUnknownInCatchVariables": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@enterprise-kit/contracts": ["packages/contracts/src/index.ts"],
+      "@enterprise-kit/observability": ["packages/observability/src/index.ts"],
+      "@enterprise-kit/security": ["packages/security/src/index.ts"],
+      "@enterprise-kit/testing": ["packages/testing/src/index.ts"]
+    }
+  }
+}
